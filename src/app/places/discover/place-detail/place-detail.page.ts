@@ -119,8 +119,7 @@ export class PlaceDetailPage implements OnInit, OnDestroy {
 
   openBookingModal(mode: 'select' | 'random') {
     console.log(mode);
-    this.modalCtrl
-      .create({
+    this.modalCtrl.create({
         component: CreateBookingComponent,
         componentProps: { selectedPlace: this.place, selectedMode: mode }
       })
@@ -155,8 +154,7 @@ export class PlaceDetailPage implements OnInit, OnDestroy {
   }
 
   onShowFullMap() {
-    this.modalCtrl
-      .create({
+    this.modalCtrl.create({
         component: MapModalComponent,
         componentProps: {
           center: {

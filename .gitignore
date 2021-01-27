@@ -43,3 +43,6 @@ environments/environment.prod.ts
 
 #README
 README_draft.md
+
+marketing
+.gitignore

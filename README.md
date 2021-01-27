@@ -1,3 +1,4 @@
+  ![](others/images/pairbnb_collage.jpg)
 This is the finished code from the online training material [Ionic - Build iOS, Android & Web Apps with Ionic & Angular](https://www.udemy.com/course/ionic-2-the-practical-guide-to-building-ios-android-apps/) in Udemy by Maximilian Schwarzmüller. Within this series, I converted the Ionic Angular mobile app to  [Ionic React](https://github.com/robhizon26/pairbnb-ionic-react) .  
 
 >You can check out Ionic Framework documentation [here](https://ionicframework.com/docs).
@@ -24,7 +25,7 @@ This is the finished code from the online training material [Ionic - Build iOS, 
 
 2. You need create a Firebase account because that is where the database is stored, that is where the image is uploaded, and that is where authentication is happening.
 
-3. You need to initialize and to deploy Firebase function because that is where a logic for image upload is being deployed. 
+3. You need to initialize and to deploy Firebase function because that is where a logic for image upload is being deployed. It is made from nodeJs.
 
     Within the function folder you need to create `config.js` with the content of:
     ```javascript
